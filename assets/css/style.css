@@ -37,3 +37,33 @@ h1 {
    text-align: center;
    color: #ffffff;
 }
+
+.container-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: -0.488px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 3px;
+}
+
+input {
+    width: 342px;
+    height: 35px;
+    margin-bottom: 6px;
+    background: transparent;
+    outline: none; /*Para qundo clicar na caixa do input não ficar marcado.*/
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #ffffff;
+}
